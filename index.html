@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1e30c8571a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Japan-Opportunities</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <i class="fa-solid fa-bars" id="menu-btn"></i>
+      <a href="#home" id="logo"><h1 class="logo">Japan-Culture</h1></a>
+      <ul class="nav-links active">
+        <i class="fa-solid fa-xmark" id="close-btn"></i>
+        <li class="active"><a href="#home">Home</a></li>
+        <li class="active"><a href="#jobs">Jobs</a></li>
+        <li class="active"><a href="#about">About</a></li>
+        <li class="active">
+          <select name="language" id="language">
+            <option value="English" selected>English</option>
+            <option value="Japnese">Japnese</option>
+          </select>
+        </li>
+      </ul>
+      <div class="serachContainer">
+        <input type="text" placeholder="Search" id="search" />
+        <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+      </div>
+    </nav>
+    <div id="searchResults">
+      <!-- Your content here -->
+    </div>
+    <!-- Hero Section -->
+    <section id="home">
+      <div class="slider" id="slider">
+        <img src="assets/bg8.webp" alt="hero" id="slideImg" />
+      </div>
+      <div class="texts">
+        <div class="titles">
+          <h1 class="title">Japan Opportunities</h1>
+          <h2 class="sub-title">Welcome to Japan</h2>
+        </div>
+
+        <div class="details">
+          <p>Japan is an amazing country</p>
+          <p>With amazing opportunities</p>
+          <p>For you.</p>
+        </div>
+        <div class="links">
+          <a href="#" class="main-btn">Get Started</a>
+          <a href="#" class="main-btn">Learn More</a>
+        </div>
+        <a href="https://github.com/aditya379"><button class="btn">Read More</button></a>
+      </div>
+    </section>
+
+    <!-- Jobs -->
+    <section id="jobs">
+      <h1 class="title">Jobs</h1>
+      <p class="sub-title">Find Great Jobs in Best Companies</p>
+      <select name="Jobs" id="Jobs">
+        <option value="" selected hidden>Jobs Category</option>
+        <option value="Software Engineer" id="software">
+          Software Engineer
+        </option>
+        <option value="Customer Support">Customer Support</option>
+        <option value="Data Analyst">Data Analyst</option>
+        <option value="Graphic Designer">Graphic Designer</option>
+      </select>
+      <div id="job" data-searchable>
+        <!-- Job Cards -->
+      </div>
+    </section>
+
+    <!-- About Japan -->
+    <section id="about">
+      <h1 class="title titleAbout">About Japan Culture</h1>
+      <p class="sub-title">Explore Japan's Top Destinations</p>
+      <div class="cities tokyo">
+        <img src="assets/tokyo.webp" alt="tokyo" class="cityimg" />
+        <div class="textsAbout">
+          <h2 class="sub-title">Tokyo City</h2>
+          <p class="abouttext">
+            Tokyo, a bustling metropolis blending tradition and innovation, is
+            known for its towering skyscrapers alongside historic temples. Its
+            vibrant districts like Shinjuku and Shibuya buzz with commerce and
+            entertainment, while iconic landmarks like Senso-ji Temple and Meiji
+            Shrine showcase its rich cultural heritage.
+          </p>
+        </div>
+      </div>
+      <div class="cities fuji">
+        <div class="textsAbout">
+          <h2 class="sub-title">Fuji Mountain</h2>
+          <p class="abouttext">
+            Mount Fuji, Japan's tallest peak at 3,776 meters, is an iconic
+            symbol of natural beauty and cultural significance. Its perfectly
+            symmetrical cone shape and UNESCO World Heritage status attract
+            millions of visitors annually. Climbing season runs from July to
+            September, offering adventurous hikers stunning views from its
+            trails.
+          </p>
+        </div>
+        <img src="assets/fuji.webp" alt="tokyo" class="cityimg" />
+      </div>
+      <div class="cities fukyoka">
+        <img src="assets/Fukyoka.webp" alt="tokyo" class="cityimg" />
+        <div class="textsAbout">
+          <h2 class="sub-title">Fukyoka City</h2>
+          <p class="abouttext">
+            Fukuoka City on Kyushu Island is famous for its vibrant atmosphere,
+            delicious tonkotsu ramen, historical sites like Fukuoka Castle and
+            Dazaifu Tenmangu Shrine, and beautiful parks such as Ohori Park. Its
+            efficient transportation system makes it easy for visitors to
+            explore its unique blend of tradition and modernity.
+          </p>
+        </div>
+      </div>
+      <div class="cities osaka">
+        <div class="textsAbout">
+          <h2 class="sub-title">Osaka City</h2>
+          <p class="abouttext">
+            Osaka City in Japan is renowned for its lively atmosphere, delicious
+            street food like takoyaki and okonomiyaki, and historical landmarks
+            such as Osaka Castle and Shitennoji Temple. The vibrant Dotonbori
+            district and bustling markets like Kuromon Ichiba Market add to its
+            charm, while modern attractions like Universal Studios Japan provide
+            entertainment. With a convenient transportation system.
+          </p>
+        </div>
+        <img src="assets/osaka.webp" alt="tokyo" class="cityimg" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footertexts">
+        <p>Copyright &copy; 2024. All Rights Reserved</p>
+        <p>
+          Powered by
+          <a
+            href="https://aditya379.github.io/Tailwind-Portfolio/"
+            target="_blank"
+            >RayAnn Coder</a
+          >
+        </p>
+      </div>
+      <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100012251704549">
+          <i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com/bala_tiwar25603"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/balatiwari/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/aditya379"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
