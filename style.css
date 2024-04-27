@@ -82,7 +82,7 @@ select {
 }
 
 #language {
-  width: 135px;
+  width: 100px;
 }
 select option {
   color: rgb(0, 0, 0);
